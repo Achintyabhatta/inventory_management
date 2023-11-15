@@ -1,7 +1,7 @@
 from django.contrib import admin
 
 # Register your models here.
-from .models import Customer, MedicalInformation
+from .models import *
 
-admin.site.register(Customer)
-admin.site.register(MedicalInformation)
+admin.site.register(Inventory)
+admin.site.register(SupplierList)
