@@ -4,7 +4,7 @@ from .models import *
 from rest_framework import status
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
-from .models import Customer, HealthRecord, Order
+from .models import *
 from .helper import *
 from .imports import *
 from .response_handler import *
